@@ -1,6 +1,5 @@
-import { ICreateCategoryDTO } from "../../cars/repositories/ICategoriesRepository";
-import { ICreateUserDTO } from "../dtos/ICreateUserDTO";
-import { User } from "../entities/User";
+import { ICreateUserDTO } from "@modules/accounts/dtos/ICreateUserDTO";
+import { User } from "@modules/accounts/infra/typeorm/entities/User";
 
 
 
